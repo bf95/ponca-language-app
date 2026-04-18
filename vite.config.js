@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/icon-180.png'],
       manifest: {
-        name: 'Ponca Language Dictionary',
-        short_name: 'Ponca',
+        name: 'Ponca Language',
+        short_name: 'Ponca Language',
         description: "Dictionary of the Ponca People by Headman & O'Neill (2019)",
         theme_color: '#2c2416',
         background_color: '#f5f0e8',

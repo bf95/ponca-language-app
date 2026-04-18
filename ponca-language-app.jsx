@@ -168,7 +168,7 @@ const css = `
   .ph-btn { background: none; border: 1px solid var(--border); border-radius: 4px; cursor: pointer; font-size: 10px; font-weight: 700; color: var(--smoke); padding: 1px 5px; font-family: var(--sans); line-height: 1.4; }
   .clickable-card { cursor: pointer; transition: border-color .15s, box-shadow .15s; }
   .clickable-card:hover { border-color: var(--warm); box-shadow: 0 2px 8px rgba(0,0,0,.08); }
-  .header { background: var(--ink); padding: 16px 16px 12px; }
+  .header { background: var(--ink); padding: 16px 16px 12px; padding-top: calc(16px + env(safe-area-inset-top)); }
   .header-title { font-family: var(--serif); font-size: 18px; color: var(--warm); font-weight: 700; letter-spacing: .02em; }
   .header-sub   { font-size: 10px; color: #6a5e4a; letter-spacing: .08em; text-transform: uppercase; margin-top: 2px; }
   .empty { text-align: center; color: var(--smoke); padding: 60px 0; }
