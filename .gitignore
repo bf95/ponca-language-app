@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+ponca-app-dist.zip
+ponca-language-app.jsx copy
+ponca_qc_check.xlsx
+vite.config.js.timestamp*
